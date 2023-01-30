@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script src="./js/main.js" type="module"></script>
+  <title>회원가입 페이지</title>
+</head>
+
+<body>
+
+  <!-- 헤더 -->
+
+  <main class="mainElements">
+    <section class="joimMembership">
+      <h2 class="membershipTitle">회원가입</h2>
+      <li><a class="">*필수입력사항</a></li>
+      <form method="POST" action="" class="membershipForm">
+          <div class="memberId">
+            <label for="member-id">아이디*</label>
+          </div>
+            <input data-testid="input-box" id="membeId" name="memberId" required placeholder="아이디를 입력해주세요" type="text" class="id" value="" />
+            <div class="confirmation"> 
+              <button type="button" class="checkDuplication">중복확인</button>
+            </div>
+            <div class="memberPw">
+              <label for="member-pw">비밀번호*</label>
+            </div>
+            <input data-testid="input-box" id="memberPassword" name="memberPassword" required placeholder="비밀번호를 입력해주세요" type="password" autocomplete="off" class="pw" value=""/> 
+            <div class="verification">
+              <label for="member-pw-verification">비밀번호확인*</label>
+            </div>
+            <input data-testid="input-box" id="passwordConfirm" name="passwordConfirm" required placeholder="비밀번호를 한번 더 입력해주세요" type="password" autocomplete="off" class="check" value=""/>
+            <div class="memberName">
+              <label for="member-name">이름*</label>
+            </div>
+            <input data-testid="input-box" id="name" name="name" required placeholder="이름을 입력해주세요" type="text" class="name" value="" />
+            <div class="memberEmail">
+              <label for="member-email">이메일*</label>
+            </div>
+            <input data-testid="input-box" id="email" name="email" required placeholder="예: marketkurly@kurly.com"  type="text" class="email" value="" />
+            <div class="confirmation"> 
+              <button type="button" class="checkDuplication">중복확인</button>
+            </div>
+            <div class="mobileNumber">
+              <label for="member-mobile">휴대폰*</label>
+            </div>
+            <input data-testid="input-box" id="mobileNumber" name="mobileNumber" required placeholder="숫자만 입력해주세요" type="tel" class="mobileNum" value="" />
+            <div class="confirmation"> 
+              <button type="button" disabled="" class="checkDuplication">인증번호 받기</button>
+            </div>
+              <div class="memberAddress">
+                <label for="member-address">주소*</label>
+              </div>
+              <div class="search">
+                <button class="searchAddress" type="button" height="44" radius="4">
+                  <img src="https://res.kurly.com/pc/service/cart/2007/ico_search.svg" alt="" class="searchAddress" />주소 검색</button>
+                  <span class="searchmemberaddress"> 배송지에 따라 상품 정보가 달라질 수 있습니다.</span>
+              </div>
+              <section class="choice">
+              <div class="gender">
+                <label for="user-gender">성별</label></div>
+                  <div class="genderMan">
+                    <label for="gender-man">
+                      <span aria-labelledby="gender-man">남자</span>
+                      <input data-testid="radio-MALE" id="gender-man" name="gender" type="radio" class="genderMan" value="MALE" />
+                    </label>
+                  </div>
+                  <div class="genderWoman">
+                    <label for="gender-woman">
+                      <span aria-labelledby="gender-man">여자</span>
+                      <input data-testid="radio-FEMALE" id="gender-woman" name="gender" type="radio" class="genderWoman" value="FEMALE" />
+                    </label>
+                  </div>
+                  <div class="genderNone">
+                    <label for="gender-none">
+                      <span aria-labelledby="gender-none">선택안함</span>
+                      <input data-testid="radio-NONE" id="gender-none" name="gender" type="radio" class="genderNone" value="NONE" />
+                    </label>
+                  </div>
+                </section>
+                <div class="birthDate">
+                  <label for="member-birthdate">생년월일</label>
+                </div>
+                <div class="birthYear" height="40">
+                  <input data-testid="input-box" name="birthyear" required placeholder="YYYY" type="text" height="40" class="birthYear" value="" />
+                </div>
+                <div class="birthMonth" height="40">
+                  <input data-testid="input-box" name="birthmonth" required placeholder="MM" type="text" height="40" class="birthMonth" value="" />
+                </div>
+                <div class="birthDay" height="40">
+                  <input data-testid="input-box" name="birthday" required placeholder="DD" type="text" height="40" class="birthDay" value="" />
+                </div>
+                <div class="additionalInputs">
+                  <label for="additional-inputs">추가입력 사항</label>
+                </div>
+                <div class="addtionalRecommender">
+                  <label for="additional-recommender">
+                    <span aria-labelledby="recommended-person-ID-for-friend-invitation">친구초대 추천인 아이디</span>
+                    <input data-testid="radio-RECOMMEND" id="additional-recommender" name="joinExtraInputType" type="radio" class="addtionalInputs" value="RECOMMEND" />
+                  </label>
+              </div>
+                <div class="addtionalEvent">
+                  <label for="additional-event">
+                    <span aria-labelledby="additional-event-name">참여 이벤트명</span>
+                    <input data-testid="radio-EVENT" id="additional-event" name="joinExtraInputType" type="radio" class="addtionalInputs" value="EVENT" />
+                  </label>
+              </div>
+              <section class="commonInputs"> 
+                <div class="inputAdditionalRecommender">
+                  <input data-testid="input-box" name="joinExtraInput" required placeholder="추천인 아이디를 입력해 주세요." type="text" class="inputAdditionalRecommender" value=""  />
+                </div>
+                <button type="button" class="checkId">아이디 확인</button>
+                <p class="noticeRecommender">가입 후 7일 내 첫 주문 배송완료 시, 친구초대 이벤트 적립금이 지급됩니다.</p>
+                  <!-- 입력 받는 폼이 radioevent로 인해 js.onclick 동작을 받음, js 이후 수정 예정-->
+                </section>
+          
+        </form>
+    </section>
+  </main>
+  
+      <!-- 푸터 -->
+
+  </body>
+</html>
