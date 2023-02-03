@@ -1,0 +1,328 @@
+@import url(./theme.css); 
+@import url(./reset.css);
+@import url(./fonts.css);
+
+.css-18eozqj-el27cq0 {
+  position: relative;
+  width: 1010px;
+  padding-bottom: 100px;
+}
+
+.css-18eozqj-el27cq0:first-of-type {
+  padding-top: 40px;
+}
+
+.css-ek0k8o-e12zoc6j3 {
+  padding: 72px 0px;
+}
+
+.css-qluxai-e12zoc6j2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  min-height: 44px;
+}
+
+.css-hbbez7-e12zoc6j0 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 22px;
+  color: #333;
+}
+
+.css-i7h443-es2lags1 {
+  padding: 7px 0 40px 3px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #666;
+}
+
+.css-1ggzvg5-es2lags0:first-of-type {
+  padding-left: 0;
+  font-weight: 500;
+  color: #666;
+}
+
+.css-1ggzvg5-es2lags0 {
+  position: relative;
+  padding-left: 11px;
+  font-weight: 400;
+  color: #999;
+}
+
+.css-1ggzvg5-es2lags0::before {
+  content: "•";
+  position: absolute;
+  left: 1px;
+  top: -1px;
+  display: inline-block;
+  font-size: 10px;
+}
+
+
+.css-1ggzvg5-es2lags0:first-of-type:before {
+  display: none;
+}
+
+.productReviewbutton{
+  display: flex;
+  position:inherit;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 5px;  
+  float: right;
+  top: 0px;
+  border-radius: 4px;
+}
+
+.productReview{
+  padding: 0px;
+  width: 155px;
+  height: 44px;
+  background: url(/client/assets/icon/product_review.png);
+}
+
+.css-1nrf0nk-e1kog1is13 {
+  position: relative;
+  width: 100%;
+  margin-top: 34px;
+  border-top: 1px solid #333;
+}
+ 
+.css-t9xei5-e1kog1is0 {
+  position: absolute;
+  top: -170px;
+  height: 0;
+}
+
+.css-1d4glbg-e1kog1is12 {
+  position: absolute;
+  top: -36px;
+  width: 100%;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.css-1hvdur5-e1kog1is13 {
+  position: absolute;
+  left: 0px;
+  font-weight: 500;
+}
+
+.css-om0g1g-e1kog1is10 {
+  display: flex;
+  gap: 17px;
+  align-items: center;
+  justify-content: flex-end;
+  font-weight: 400;
+}
+
+.css-1wutd8j-e1kog1is9 {
+  position: relative;
+  font-weight: 500;
+  font-size: 12px;
+  color: #333;
+}
+
+.css-1wutd8j-e1kog1is9::after {
+  content: "";
+  position: absolute;
+  top: 4px;
+  height: 62.5%;
+  border-left: 1px solid #999;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.css-1vdyl7k-e1kog1is9 {
+  position: relative;
+  font-weight: 400;
+  font-size: 12px;
+  color: #999;
+}
+
+.css-benyte-e1ln51kt3 {
+  padding: 21px 20px 20px;
+  border-bottom: 1px solid rgb(238, 238, 238);
+}
+
+.css-1gq7k31-e1ln51kt2 {
+  display: inline-block;
+  height: 22px;
+  width: 42px;
+  border-radius: 4px;
+  background-color: rgb(244, 244, 244);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 22px;
+  text-align: center;
+  color: rgb(102, 102, 102);
+  vertical-align: 2px;
+}
+
+.css-qbpq7v-e1ln51kt1 {
+  margin-left: 9px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: center;
+  color: rgb(51, 51, 51);
+}
+
+.css-169773r-e3z05c0 {
+  display: flex;
+  padding: 30px 0px 19px 20px;
+  border-bottom: 1px solid rgb(244, 244, 244);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+}
+
+.css-107htc6-ebup33p16 {
+  flex: 0 0 225px;
+}
+
+.css-1qo6qeh-e1bup33p15 {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  margin: -1px 0px 7px;
+}
+
+.css-xtgqlr-e36z05c6 {
+  display: inline-block;
+  height: 18px;
+  border: 1px solid rgb(95, 0, 128);
+  border-radius: 3px;
+  padding: 3px 4px 3px 5px;
+  margin-right: 4px;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 10px;
+  text-align: center;
+  word-break: keep-all;
+  background-color: rgb(255, 255, 255);
+  color: rgb(95, 0, 128);
+}
+
+.css-f3vz0n-e1bup33p13 {
+  font-weight: 500;
+}
+
+.css-inxa61-e1bup33p10 {
+  flex: 1 1 0%;
+  overflow: hidden;
+}
+
+.css-18pn4xv-e36z05c1 {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  gap: 5px;
+  height: 19px;
+  padding-right: 20px;
+}
+
+.css-11q4ylb-e36z05c4 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  color: rgb(153, 153, 153);
+  display: -webkit-box;
+  overflow: hidden;
+  word-break: break-all;
+  white-space: normal;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.css-i69j0n-e36z05c5 {
+  padding-top: 12px;
+  word-break: break-word;
+  white-space: pre-line;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: rgb(51, 51, 51);
+  padding-right: 20px;
+}
+
+.css-1l7ac3a-e1bup33p5 {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 3px;
+  overflow: auto;
+  padding: 15px 0px 2px;
+}
+
+
+
+.css-jz9m4p {
+ display: -webkit-box;
+ display: -webkit-flex;
+ display: -ms-flexbox;
+ display: flex;
+ gap: 12px;
+ -webkit-box-pack: center;
+ -ms-flex-pack: center;
+ -webkit-justify-content: center;
+ justify-content: center;
+ padding-top: 20px;
+}
+   
+.css-xzvv6n {
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  cursor: pointer;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-image: url("https://res.kurly.com/kurly/ico/2021/paging-prev-activated.svg");
+}
+
+.css-xzvv6n:hover {
+  background-image: url("https://res.kurly.com/kurly/ico/2021/paging-prev-hover.svg");
+}
+
+.css-xzvv6n:disabled {
+  background-image: url("https://res.kurly.com/kurly/ico/2021/paging-prev-disabled.svg");
+  cursor: default;
+}
+
+.css-7qb0sc {
+  overflow: hidden;
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+}
+
+.css-1orps7k {
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  cursor: pointer;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-image: url("https://res.kurly.com/kurly/ico/2021/paging-next-activated.svg");
+}
+
+.css-1orps7k:hover {
+  background-image: url("https://res.kurly.com/kurly/ico/2021/paging-next-hover.svg");
+}
+
+.css-1orps7k:disabled {
+  background-image: url("https://res.kurly.com/kurly/ico/2021/paging-next-disabled.svg");
+  cursor: default;
+}
+  
