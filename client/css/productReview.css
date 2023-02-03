@@ -2,6 +2,22 @@
 @import url(./reset.css);
 @import url(./fonts.css);
 
+.a11y-hidden
+legend{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: polygon(0 0, 0 0, 0 0);
+}
+
+.main{
+  position: relative;
+  width: 1050px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
 .css-18eozqj-el27cq0 {
   position: relative;
   width: 1010px;
@@ -25,8 +41,8 @@
 }
 
 .css-hbbez7-e12zoc6j0 {
-  font-size: 24px;
-  font-weight: 500;
+  font-size: 27px;
+  font-weight: 800;
   line-height: 22px;
   color: #333;
 }
@@ -121,9 +137,17 @@
   font-weight: 400;
 }
 
+.css-1hvdur5-e1kog1is11 {
+  position: absolute;
+  left: 0px;
+  font-weight: 500;
+}
+
 .css-1wutd8j-e1kog1is9 {
   position: relative;
   font-weight: 500;
+  margin-left: 10px;
+  margin-right: -10px;
   font-size: 12px;
   color: #333;
 }
@@ -278,14 +302,21 @@
   padding: 15px 0px 2px;
 }
 
+.css-1e1eqrv-e1bup33p2 {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 100%;
+  padding: 15px 0px 2px;
+}
+
 .css-14kcwq8-e1bup33p0 {
   color: rgb(153, 153, 153);
 }
 
-.css-jz9m4p {
- display: -webkit-box;
- display: -webkit-flex;
- display: -ms-flexbox;
+.css-jz9m4p-e1kog1is5 {
  display: flex;
  gap: 12px;
  -webkit-box-pack: center;
@@ -295,7 +326,7 @@
  padding-top: 20px;
 }
    
-.css-xzvv6n {
+.css-xzvv6n-e1kog1is2 {
   width: 44px;
   height: 44px;
   padding: 0;
@@ -309,16 +340,16 @@
   background-image: url("https://res.kurly.com/kurly/ico/2021/paging-prev-activated.svg");
 }
 
-.css-xzvv6n:hover {
+.css-xzvv6n-e1kog1is2:hover {
   background-image: url("https://res.kurly.com/kurly/ico/2021/paging-prev-hover.svg");
 }
 
-.css-xzvv6n:disabled {
+.css-xzvv6n-e1kog1is2:disabled {
   background-image: url("https://res.kurly.com/kurly/ico/2021/paging-prev-disabled.svg");
   cursor: default;
 }
 
-.css-7qb0sc {
+.css-7qb0sc-e1ilyb3p0 {
   overflow: hidden;
   position: absolute;
   left: -9999px;
@@ -326,7 +357,7 @@
   height: 1px;
 }
 
-.css-1orps7k {
+.css-1orps7k-e1kog1is1 {
   width: 44px;
   height: 44px;
   padding: 0;
@@ -340,12 +371,20 @@
   background-image: url("https://res.kurly.com/kurly/ico/2021/paging-next-activated.svg");
 }
 
-.css-1orps7k:hover {
+.css-1orps7k-e1kog1is1:hover {
   background-image: url("https://res.kurly.com/kurly/ico/2021/paging-next-hover.svg");
 }
 
-.css-1orps7k:disabled {
+.css-1orps7k-e1kog1is1:disabled {
   background-image: url("https://res.kurly.com/kurly/ico/2021/paging-next-disabled.svg");
   cursor: default;
+}
+
+.css-7qb0sc-e1ilyb3p0 {
+  overflow: hidden;
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
 }
   
