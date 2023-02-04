@@ -165,23 +165,56 @@ legend{
   color: #999;
 }
 
-.css-benyte-e1ln51kt3 {
-  padding: 21px 20px 20px;
-  border-bottom: 1px solid rgb(238, 238, 238);
+.product-review-table{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0px;
+  width: 1050px;
+  height: 578px;
+  border-top: 1px solid #000000;
 }
 
-.css-1gq7k31-e1ln51kt2 {
-  display: inline-block;
-  height: 22px;
-  width: 42px;
-  border-radius: 4px;
-  background-color: rgb(244, 244, 244);
-  font-size: 12px;
-  font-weight: 500;
-  line-height: 22px;
-  text-align: center;
-  color: rgb(102, 102, 102);
-  vertical-align: 2px;
+.css-benyte-e1ln51kt3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  width: 1050px;
+  height: 58px;
+}
+
+.notice{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px 20px;
+  gap: 20px;
+  width: 1050px;
+  height: 58px;
+}
+
+.week-best-review{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px 20px;
+  gap: 20px;
+  width: 1050px;
+  height: 58px;
+}
+
+.css-1gq7k31-e1ln51kt2{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px 8px;
+  width: 37px;
+  height: 19px;
+  background: #E1E1E1;
+  border-radius: 1px;
 }
 
 .css-qbpq7v-e1ln51kt1 {
