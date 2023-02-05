@@ -19,22 +19,21 @@ legend{
   padding-top: 30px;
 }
 
-
-.css-18eozqj-el27cq0 {
+.product-review{
   position: relative;
   width: 1010px;
   padding-bottom: 100px;
 }
 
-.css-18eozqj-el27cq0:first-of-type {
+.product-review:first-of-type{
   padding-top: 40px;
 }
 
-.css-ek0k8o-e12zoc6j3 {
+.product-review-area-space{
   padding: 72px 0px;
 }
 
-.css-qluxai-e12zoc6j2 {
+.product-review-text-header{
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -42,14 +41,14 @@ legend{
   min-height: 100px;
 }
 
-.css-hbbez7-e12zoc6j0 {
+.product-review-text{
   font-size: 27px;
   font-weight: 800;
   line-height: 22px;
   color: #333;
 }
 
-.css-i7h443-es2lags1 {
+.product-review-description-entire{
   padding: 7px 0 70px 3px;
   font-weight: 500;
   font-size: 14px;
@@ -57,7 +56,7 @@ legend{
   color: #666;
 }
 
-.css-1ggzvg5-es2lags0:first-of-type {
+.product-review-description:first-of-type{
   padding-left: 0;
   margin: 5px;
   font-weight: 500;
@@ -65,7 +64,7 @@ legend{
   color: #333;
 }
 
-.css-1ggzvg5-es2lags0 {
+.product-review-description{
   position: relative;
   margin: 2px;
   padding-left: 14px;
@@ -73,7 +72,7 @@ legend{
   color: #999;
 }
 
-.css-1ggzvg5-es2lags0::before {
+.product-review-description::before{
   content: "•";
   position: absolute;
   left: 7px;
@@ -82,11 +81,11 @@ legend{
   font-size: 10px;
 }
 
-.css-1ggzvg5-es2lags0:first-of-type:before {
+.product-review-description:first-of-type:before{
   display: none;
 }
 
-.productReviewbutton{
+.product-review-button-area-space{
   display: flex;
   position:inherit;
   justify-content: space-around;
@@ -97,21 +96,21 @@ legend{
   border-radius: 4px;
 }
 
-.productReview{
+.product-review-button{
   padding: 0px;
   width: 155px;
   height: 44px;
   background: url(/client/assets/icon/product_review.png);
 }
 
-.css-1nrf0nk-e1kog1is13 {
+.product-review-board{
   position: relative;
   width: 100%;
   margin-top: 34px;
   border-top: 1px solid #333;
 }
  
-.css-1d4glbg-e1kog1is12 {
+.product-review-board-upper-area{
   position: absolute;
   top: -36px;
   width: 100%;
@@ -119,13 +118,7 @@ legend{
   line-height: 16px;
 }
 
-.css-1hvdur5-e1kog1is13 {
-  position: absolute;
-  left: 0px;
-  font-weight: 500;
-}
-
-.css-om0g1g-e1kog1is10 {
+.product-review-board-upper-area-space{
   display: flex;
   gap: 17px;
   align-items: center;
@@ -133,13 +126,13 @@ legend{
   font-weight: 400;
 }
 
-.css-1hvdur5-e1kog1is11 {
+.product-review-total-number{
   position: absolute;
   left: 0px;
   font-weight: 500;
 }
 
-.css-1wutd8j-e1kog1is9 {
+.recommendation-order{
   position: relative;
   font-weight: 500;
   margin-left: 10px;
@@ -148,29 +141,29 @@ legend{
   color: #333;
 }
 
-.css-1wutd8j-e1kog1is9::after {
+.recommendation-order::after{
   content: "";
   position: absolute;
-  top: 4px;
+  top: 3px;
   height: 62.5%;
   border-left: 1px solid #999;
-  margin-left: 8px;
-  margin-right: 8px;
+  margin-left: 9px;
+  margin-right: 9px;
 }
 
-.css-1vdyl7k-e1kog1is9 {
+.recent-registration-order{
   position: relative;
   font-weight: 400;
   font-size: 12px;
   color: #999;
 }
 
-.css-benyte-e1ln51kt3 {
+.product-review-notice-entire{
   padding: 21px 20px 20px;
   border-bottom: 1px solid rgb(238, 238, 238);
 }
 
-.css-1gq7k31-e1ln51kt2 {
+.product-review-notice{
   display: inline-block;
   height: 22px;
   width: 42px;
@@ -184,7 +177,7 @@ legend{
   vertical-align: 2px;
 }
 
-.css-qbpq7v-e1ln51kt1 {
+.product-review-notice-button{
   margin-left: 9px;
   font-size: 16px;
   font-weight: 400;
@@ -193,7 +186,7 @@ legend{
   color: rgb(51, 51, 51);
 }
 
-.css-169773r-e3z05c0 {
+.product-review-separate-area{
   display: flex;
   padding: 30px 0px 19px 20px;
   border-bottom: 1px solid rgb(244, 244, 244);
@@ -202,18 +195,17 @@ legend{
   line-height: 10px;
 }
 
-.css-107htc6-ebup33p16 {
+.product-review-separate-grade-best{
   flex: 0 0 225px;
 }
 
-.css-1qo6qeh-e1bup33p15 {
+.product-review-separate-grade-best-space-area{
   display: flex;
-  -webkit-box-align: center;
   align-items: center;
   margin: -1px 0px 7px;
 }
 
-.css-xtgqlr-e36z05c7 {
+.product-review-best{
   display: inline-block;
   height: 11px;
   border: 1px solid #bd76ff;
@@ -222,14 +214,14 @@ legend{
   margin-right: 8px;
   font-weight: 400;
   font-size: 10px;
-  line-height: 8px;
+  line-height: 12px;
   text-align: center;
   word-break: keep-all;
   background-color:#bd76ff;
   color: rgb(255, 255, 255);
 }
 
-.css-xtgqlr-e36z05c6 {
+.product-review-grade{
   display: inline-block;
   height: 11px;
   border: 1px solid rgb(95, 0, 128);
@@ -238,47 +230,42 @@ legend{
   margin-right: 8px;
   font-weight: 500;
   font-size: 10px;
-  line-height: 8px;
+  line-height: 10px;
   text-align: center;
   word-break: keep-all;
   background-color: rgb(255, 255, 255);
   color: rgb(95, 0, 128);
 }
 
-.css-f3vz0n-e1bup33p13 {
+.product-review-member-name{
   font-weight: 500;
   font-size: 13px;
-  margin-bottom: 3px;
+  margin-bottom: 2px;
 }
 
-.css-inxa61-e1bup33p10 {
+.product-review-bottom{
   flex: 1 1 0%;
   overflow: hidden;
 }
 
-.css-18pn4xv-e36z05c1 {
+.product-review-bottom-space-area{
   display: flex;
-  -webkit-box-align: center;
   align-items: center;
   gap: 5px;
-  height: 19px;
   padding-right: 20px;
 }
 
-.css-11q4ylb-e36z05c4 {
+.product-review-item-name{
   font-size: 14px;
   font-weight: 400;
   line-height: 19px;
   color: rgb(153, 153, 153);
-  display: -webkit-box;
   overflow: hidden;
   word-break: break-all;
   white-space: normal;
-  -webkit-line-clamp: 1;
-  -webkit-box-orient: vertical;
 }
 
-.css-i69j0n-e36z05c5 {
+.product-review-text-area{
   padding-top: 30px;
   padding-bottom: 10px;
   word-break: break-word;
@@ -290,7 +277,7 @@ legend{
   padding-right: 20px;
 }
 
-.css-1l7ac3a-e1bup33p5 {
+.product-review-lower-space-area{
   display: flex;
   flex-wrap: nowrap;
   gap: 3px;
@@ -298,31 +285,26 @@ legend{
   padding: 15px 0px 2px;
 }
 
-.css-1e1eqrv-e1bup33p2 {
+.product-review-lower-space-area-entire{
   display: flex;
-  -webkit-box-pack: justify;
   justify-content: space-between;
-  -webkit-box-align: center;
   align-items: center;
   width: 100%;
   padding: 15px 0px 2px;
 }
 
-.css-14kcwq8-e1bup33p0 {
+.product-review-datetime{
   color: rgb(153, 153, 153);
 }
 
-.css-jz9m4p-e1kog1is5 {
+.page-switching-button{
  display: flex;
  gap: 12px;
- -webkit-box-pack: center;
- -ms-flex-pack: center;
- -webkit-justify-content: center;
  justify-content: center;
  padding-top: 20px;
 }
    
-.css-xzvv6n-e1kog1is2 {
+.prev-page-disabled-button{
   width: 44px;
   height: 44px;
   padding: 0;
@@ -331,21 +313,20 @@ legend{
   cursor: pointer;
   background-color: transparent;
   background-repeat: no-repeat;
-  -webkit-background-size: cover;
   background-size: cover;
-  background-image: url("https://res.kurly.com/kurly/ico/2021/paging-prev-activated.svg");
+  background: url("/client/assets/icon/prev-activated.png");
 }
 
-.css-xzvv6n-e1kog1is2:hover {
-  background-image: url("https://res.kurly.com/kurly/ico/2021/paging-prev-hover.svg");
+.prev-page-disabled-button:hover{
+  background: url("/client/assets/icon/prev-hover.png");
 }
 
-.css-xzvv6n-e1kog1is2:disabled {
-  background-image: url("https://res.kurly.com/kurly/ico/2021/paging-prev-disabled.svg");
+.prev-page-disabled-button:disabled{
+  background: url("/client/assets/icon/prev-disabled.png");
   cursor: default;
 }
 
-.css-7qb0sc-e1ilyb3p0 {
+.prev-page-button-text-hidden{
   overflow: hidden;
   position: absolute;
   left: -9999px;
@@ -353,7 +334,7 @@ legend{
   height: 1px;
 }
 
-.css-1orps7k-e1kog1is1 {
+.next-page-button {
   width: 44px;
   height: 44px;
   padding: 0;
@@ -362,25 +343,23 @@ legend{
   cursor: pointer;
   background-color: transparent;
   background-repeat: no-repeat;
-  -webkit-background-size: cover;
   background-size: cover;
-  background-image: url("https://res.kurly.com/kurly/ico/2021/paging-next-activated.svg");
+  background: url("/client/assets/icon/next-activated.png");
 }
 
-.css-1orps7k-e1kog1is1:hover {
-  background-image: url("https://res.kurly.com/kurly/ico/2021/paging-next-hover.svg");
+.next-page-button:hover {
+  background: url("/client/assets/icon/next-hover.png");
 }
 
-.css-1orps7k-e1kog1is1:disabled {
-  background-image: url("https://res.kurly.com/kurly/ico/2021/paging-next-disabled.svg");
+.next-page-button:disabled {
+  background: url("/client/assets/icon/next-disabled.png");
   cursor: default;
 }
 
-.css-7qb0sc-e1ilyb3p0 {
+.next-page-button-text-hidden {
   overflow: hidden;
   position: absolute;
   left: -9999px;
   width: 1px;
   height: 1px;
 }
-  
